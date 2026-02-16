@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="portfolio-banner">
+    <h1> My Portfolio</h1>
+    </section>
+
+   <!-- NAVBAR -->
+<nav class="navbar">
+
+    <!-- LEFT SIDE (Logo or empty space for mobile alignment) -->
+    <div class="nav-left">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="nav-right">
+
+        <!-- Theme Button -->
+        <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">
+            🌙
+        </button>
+
+        <!-- Hamburger (only visible on mobile) -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- SIDEBAR MENU (Mobile Only) -->
+<ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="overlay" onclick="toggleMenu()"></div>
+
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Prasanjeeta Jena</span></h1>
+            <h3>Welcome to my website</h3>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/prasanjeeta-jena-9400051ab" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+    
+                <a href="https://github.com/eshajena3" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/eshajena3?igsh=MThtcjl5Y2ZtdGRlMw==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                 </a>
+            </div>
+        </div>
+
+
+        <div class="hero-images">
+            <div class="image-large">
+                <img src="images/my_image.jpeg" alt="My Photo">
+            </div>
+            <div class="image-small">
+                <img src="images/my_image2.jpeg" alt="My Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+    <h2>About Me</h2>
+
+    <div class="about-card">
+        <p>
+            Hi, I’m <span class="highlight">Prasanjeeta Jena</span>, a 
+            <span class="highlight">B.Tech Computer Science (Core)</span> student 
+            driven by curiosity, growth, and the desire to build 
+            <span class="highlight">meaningful solutions</span>.
+        </p>
+
+        <p>
+            I am passionate about technology and continuously sharpening my skills in 
+            <span class="highlight">Java</span>, 
+            <span class="highlight">Python</span>, 
+            <span class="highlight">Data Structures & Algorithms</span>, and 
+            <span class="highlight">Front-End Development</span>, 
+            while expanding toward <span class="highlight">Full-Stack Development</span>. 
+            I believe strong fundamentals and consistent practice are the foundation of real expertise.
+        </p>
+
+        <p>
+            For me, coding is not just about writing programs — it’s about 
+            <span class="highlight">solving problems</span>, 
+            thinking logically, and creating impact through 
+            <span class="highlight">structured and efficient solutions</span>.
+        </p>
+
+        <p>
+            Through attending an <span class="highlight">IBO Bootcamp</span>, 
+            I gained exposure to business models, value creation, and opportunity thinking. 
+            It helped me understand that technical knowledge combined with 
+            <span class="highlight">strategic thinking</span> creates real growth — 
+            both professionally and financially.
+        </p>
+
+        <p>
+            I also have an interest in <span class="highlight">video editing</span> 
+            and creative storytelling, which enhances my ability to present ideas effectively 
+            and focus on <span class="highlight">user experience and impact</span>.
+        </p>
+
+        <p>
+            I am committed to continuous learning, self-improvement, and building projects 
+            that reflect both technical strength and creative thinking.
+        </p>
+
+        <p>
+            This portfolio website is also <span class="highlight">designed and developed by me</span> 
+            using <span class="highlight">HTML</span>, 
+            <span class="highlight">CSS</span>, and 
+            <span class="highlight">JavaScript</span>.
+        </p>
+    </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works">
+    <h2>WORKS</h2>
+
+    <div class="work-card">
+        <h3>Website Development</h3>
+        <p>
+            Built and designed my personal portfolio website to showcase my
+            technical skills, projects, and learning journey. This project helped
+            me strengthen my understanding of HTML, CSS, and JavaScript through
+            practical implementation.
+        </p>
+        <p class="skills"><strong>Skill Set:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="work-card">
+        <h3>DSA & Technical Growth</h3>
+        <p>
+            Continuously improving my problem-solving abilities by practicing
+            Data Structures and Algorithms. Focused on writing optimized and
+            structured solutions using Java and Python.
+        </p>
+        <p class="skills"><strong>Skill Set:</strong> Java, Python</p>
+    </div>
+
+    <div class="work-card">
+        <h3>IBO Bootcamp & Business Exposure</h3>
+        <p>
+            Participated in an IBO Bootcamp where I gained insights into
+            business models, value creation, financial awareness, and
+            opportunity thinking. This experience helped me develop a
+            growth-oriented and entrepreneurial mindset alongside my
+            technical journey.
+        </p>
+        <p class="skills"><strong>Focus:</strong> Business Strategy, Mindset Development</p>
+    </div>
+
+</section>
+
+<section id="education" class="education">
+    <h2>EDUCATION</h2>
+
+    <div class="edu-card">
+        <h3>B.Tech CSE</h3>
+        <p><b>ITER, Siksha 'O' Anusandhan University, Bhubaneswar</b></p>
+        <span class="year"> YEAR - 2028 </span>
+    </div>
+
+    <div class="edu-card">
+        <h3>XII – PM Shri Kendriya Vidyalaya Berhampore, West Bengal</h3>
+        <span class="year"> YEAR - 2024</span>
+    </div>
+
+    <div class="edu-card">
+        <h3>X – PM Shri Kendriya Vidyalaya Berhampore, West Bengal </h3>
+        <span class="year"> YEAR - 2022</span>
+    </div>
+
+</section>
+
+   <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-email">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:eshajena3@gmail.com" target="_blank">
+            eshajena3@gmail.com
+        </a>
+    </div>
+
+    <p class="or-text">OR</p>
+
+    <form id="contact-form" class="contact-form">
+    <input type="email" name="user_email" placeholder="Your E-mail ID" required>
+    <textarea name="message" rows="5" placeholder="Leave a message here" required></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+
+    <div class="copyright">
+        © 2024 Prasanjeeta Jena. All Rights Reserved.
+    </div>
+</section>
+
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+    (function(){
+        emailjs.init("yrKQerRxbanT34GK1"); // replace this
+    })();
+
+    document.getElementById("contact-form")
+        .addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            emailjs.sendForm(
+                "service_jxkmlt5",      // replace this
+                "template_vmjojz2",     // replace this
+                this
+            ).then(function() {
+                alert("Message Sent Successfully ✅");
+            }, function(error) {
+                alert("Failed to send ❌");
+            });
+        });
+</script>
+
+
+</body>
+</html>
